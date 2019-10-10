@@ -10,14 +10,17 @@ public class FourSquare {
 	void go() {
 		// 4. Make the robot move as fast as possible
 		marie.setSpeed(200);
+		
 
 		// 5. Set the pen width to 5
+		marie.penDown();
 		marie.setPenWidth(5);
 
 		// 6. Use a for loop to repeat steps #7 to #8, four times...
 		for(int i=0; i<4;i++) {
 			// 7. Set the pen color to random
 		   marie.setRandomPenColor();
+		   
 			// 1. Call the drawSquare() method
 		
 		drawSquare();
